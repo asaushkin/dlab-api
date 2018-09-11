@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
+@Table(name = "quiz", schema = "quiz")
 public class Quiz {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
