@@ -16,7 +16,7 @@ COPY quiz.question (id, answer, name, quiz_id) FROM stdin;
 4	f	The Suez Canal connects the Red Sea and the Indian Ocean.	1
 5	f	The source of the Nile River is in Egypt.	1
 6	t	The Amazon River is the longest river in the Americas.	1
-7	t	Lake Baikal is the world’s oldest and deepest freshwater lake.	1
+7	t	Lake Baikal is the world's oldest and deepest freshwater lake.	1
 \.
 
 
