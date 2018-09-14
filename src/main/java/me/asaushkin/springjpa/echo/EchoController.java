@@ -29,20 +29,20 @@ public class EchoController {
 
     static class Echo {
         private Integer id;
-        private String data;
+        private String payload;
         private ZonedDateTime timestamp = ZonedDateTime.now(ZoneId.of("UTC"));
 
-        public Echo(Integer id, String data) {
+        public Echo(Integer id, String payload) {
             this.id = id;
-            this.data = data;
+            this.payload = payload;
         }
 
         public Integer getId() {
             return id;
         }
 
-        public String getData() {
-            return data;
+        public String getPayload() {
+            return payload;
         }
 
         public ZonedDateTime getTimestamp() {

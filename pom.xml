@@ -5,7 +5,7 @@
 
     <groupId>me.asaushkin</groupId>
     <artifactId>dlab-api</artifactId>
-    <version>1.0.5</version>
+    <version>1.0.7</version>
     <packaging>jar</packaging>
 
     <name>dlab-api</name>

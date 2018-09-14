@@ -2,7 +2,7 @@
 -- Data for Name: quiz; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY quiz.quiz (id, description, name) FROM stdin;
+COPY quiz (id, description, name) FROM stdin;
 1	Quiz by Android to Professionals	Geo Quiz
 \.
 
@@ -10,7 +10,7 @@ COPY quiz.quiz (id, description, name) FROM stdin;
 -- Data for Name: question; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY quiz.question (id, answer, name, quiz_id) FROM stdin;
+COPY question (id, answer, name, quiz_id) FROM stdin;
 2	t	Canberra is the capital of Australia.	1
 3	t	The Pacific Ocean is larger than the Atlantic Ocean.	1
 4	f	The Suez Canal connects the Red Sea and the Indian Ocean.	1
